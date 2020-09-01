@@ -28,11 +28,19 @@
         </div>
     </nav>
 
-    <br><br><br>
+    <br>
+    <br>
+    <br>
 
 
     <div class="container">
+        <h3> {{ prediction_text }}</h3>
+    <div class="result">
+    
+    <br>
+    <br>
 
+    </div>
 
 
         <form action="\predict" method="post">
@@ -350,14 +358,20 @@
 
         <br>
         <br>
-        <h3>{{ prediction_text }}</h3>
-
-        <br>
-        <br>
 
     </div>
 
+    <!-- Footer -->
+  <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>Copyright &copy; 
+      <a href="https://github.com/fabianofpena"> Fabiano Pena</a>
 
+      </small>
+
+    </div>
+  </footer>
+    <!-- Footer -->
 
 
     <!-- JavaScript -->
@@ -372,5 +386,6 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 
 </html>
